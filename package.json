@@ -1,0 +1,29 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Anna Andriyanets",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "email": "annaandriyanets0@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
